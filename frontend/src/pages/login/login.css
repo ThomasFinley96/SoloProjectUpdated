@@ -1,0 +1,91 @@
+
+.login-container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)), url("../../assets/bg-pizza.jpg");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form{
+    width: 600px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.login-title{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.input-grp{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.login-input{
+    width: 70%;
+    height: 35px;
+    margin-left: 10px;
+    padding: 20px 15px;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+.login-label{
+    width: 30%;    
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+.login-btn{
+    margin-top: 30px;
+    width: 250px;
+    height: 35px;
+    background-color: rgb(37, 96, 206);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login-btn:disabled{
+    background-color: rgb(178, 188, 208);
+    cursor: initial;
+}
+
+.return-btn{
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 24px;
+}
+
+.login-f-password{
+    padding-top: 30px;
+    color: #666;
+    cursor: pointer;
+}
+
+.login-to-register-page{
+    padding-top: 30px;
+}
+
+.login-to-register-page a{
+    color: rgb(7, 130, 206);
+    font-weight: 700;
+}
